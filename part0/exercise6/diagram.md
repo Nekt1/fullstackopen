@@ -34,6 +34,6 @@ sequenceDiagram
     deactivate server 
 
     Note right of browser:
-    The browser immediately after pressing save updates the list of notes and re-renders it, without needing to wait for an update from BE
+    The browser immediately after pressing save updates the list of notes and re-renders it without needing to wait for an update from BE
     
 
