@@ -55,8 +55,5 @@ sequenceDiagram
 
     Note left of server:
     The server sends an updated JSON document to the browser containing the new note
-    
     Note right of browser:
     The browser receives the updated JSON document and renders the notes
-
-
