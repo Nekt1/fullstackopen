@@ -53,7 +53,6 @@ sequenceDiagram
     server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
     deactivate server
 
-    Note left of server:
-    The server sends an updated JSON document to the browser containing the new note
-    Note right of browser:
-    The browser receives the updated JSON document and renders the notes
+    Note left of server: The server sends an updated JSON document to the browser containing the new note
+    Note right of browser: The browser receives the updated JSON document and renders the notes
+```

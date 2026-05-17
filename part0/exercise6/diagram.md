@@ -33,5 +33,5 @@ sequenceDiagram
     server-->>browser: 201 Created {"message": "note created"}
     deactivate server 
 
-    Note right of browser:
-    The browser immediately after pressing save updates the list of notes and re-renders it without needing to wait for an update from BE
+    Note right of browser: The browser immediately after pressing save updates the list of notes and re-renders it without needing to wait for an update from BE
+```
